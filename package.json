@@ -1,0 +1,26 @@
+{
+  "name": "wrapperr",
+  "version": "1.0.0",
+  "description": "Wrap error objects, receive stack and adjust messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wizcorp/wrapperr.git"
+  },
+  "keywords": [
+    "error",
+    "handling",
+    "errors",
+    "wrapper",
+    "wrapperr"
+  ],
+  "author": "Marc Trudel <mtrudel@wizcorp.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wizcorp/wrapperr/issues"
+  },
+  "homepage": "https://github.com/Wizcorp/wrapperr"
+}
