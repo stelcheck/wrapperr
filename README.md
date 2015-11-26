@@ -37,6 +37,17 @@ Could not read abc: ENOENT, open './abc'
 		at /path/to/some/test.js:12:9
 ```
 
+Or, if using `WrappErr.setStackFormat('marker');`:
+
+```
+Could not read abc: ENOENT, open './abc'
+	!!! ENOENT, open './abc'
+	at fs.js:207:20
+	at Object.oncomplete (fs.js:107:15)
+	!!! Could not read abc
+	at /path/to/some/test.js:12:9
+```
+
 Of course, the idea is that you should be able
 to re-wrap already wrapped errors to get even
 more detailed and contextualised errors.
